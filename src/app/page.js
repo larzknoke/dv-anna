@@ -52,7 +52,7 @@ export default function Home() {
             />
           </div>
 
-          <h1 className="text-6xl italic font-bold mt-12">Pflege leben!</h1>
+          <h1 className="text-6xl italic font-bold mt-18">Pflege leben!</h1>
           <Nav />
         </div>
       </main>
