@@ -20,7 +20,7 @@ export default function MobileNav() {
       {/* Burger Menu Button - Mobile */}
       <button
         onClick={() => setIsOpen(!isOpen)}
-        className="absolute top-23 right-15 z-20 md:hidden text-anna-500"
+        className="absolute top-24 right-15 z-20 md:hidden text-anna-500"
         aria-label="Toggle menu"
       >
         <svg
@@ -57,7 +57,7 @@ export default function MobileNav() {
 
       {/* Off-canvas Sidebar */}
       <div
-        className={`fixed top-0 right-0 h-screen w-64 bg-gray-400 text-white z-40 transform transition-transform duration-300 ease-in-out md:hidden ${
+        className={`fixed top-0 right-0 h-screen w-64 bg-anna-500 text-white z-40 transform transition-transform duration-300 ease-in-out md:hidden ${
           isOpen ? "translate-x-0" : "translate-x-full"
         }`}
       >
@@ -92,7 +92,7 @@ export default function MobileNav() {
                 onClick={() => setIsOpen(false)}
                 className={`text-lg uppercase ${
                   pathname === link.href
-                    ? "text-anna-500 font-bold"
+                    ? "md:text-anna-500 font-bold"
                     : "text-white"
                 }`}
               >
@@ -111,7 +111,7 @@ export default function MobileNav() {
               key={link.href}
               href={link.href}
               className={
-                pathname === link.href ? "text-anna-500 font-bold" : ""
+                pathname === link.href ? "md:text-anna-500 font-bold" : ""
               }
             >
               {link.label}
