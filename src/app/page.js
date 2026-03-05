@@ -1,5 +1,5 @@
 import Image from "next/image";
-import Nav from "./components/Nav";
+import MobileNav from "./components/MobileNav";
 import CornerImages from "./components/CornerImages";
 
 export default function Home() {
@@ -17,7 +17,7 @@ export default function Home() {
             className="m-auto"
           />
 
-          <div className="flex flex-row align-middle gap-22 mt-16 items-end">
+          <div className="flex flex-col md:flex-row align-middle gap-6 md:gap-22 mt-16 items-center md:items-end">
             <Image
               src="/img/anna.svg"
               alt="Anna"
@@ -52,8 +52,10 @@ export default function Home() {
             />
           </div>
 
-          <h1 className="text-6xl italic font-bold mt-18">Pflege leben!</h1>
-          <Nav />
+          <h1 className="hidden md:block text-6xl italic font-bold mt-18">
+            Pflege leben!
+          </h1>
+          <MobileNav />
         </div>
       </main>
     </div>

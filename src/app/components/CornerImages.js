@@ -14,12 +14,12 @@ export default function CornerImages() {
       <img
         src="/img/ul_web.png"
         alt="Bottom Left"
-        className="fixed bottom-0 left-0 w-[53%] max-w-200 object-contain pointer-events-none"
+        className="fixed bottom-0 left-0 w-[53%] max-w-200 object-contain pointer-events-none hidden md:block"
       />
       <img
         src="/img/ur_web.png"
         alt="Bottom Right"
-        className="fixed bottom-0 right-0 w-[53%] max-w-200 object-contain pointer-events-none"
+        className="fixed bottom-0 right-0 w-[53%] max-w-200 object-contain pointer-events-none hidden md:block"
       />
     </>
   );

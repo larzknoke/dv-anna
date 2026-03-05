@@ -1,6 +1,6 @@
 import Image from "next/image";
 import CornerImages from "../components/CornerImages";
-import Nav from "../components/Nav";
+import MobileNav from "../components/MobileNav";
 import Link from "next/link";
 
 export default function Datenschutz() {
@@ -392,7 +392,7 @@ export default function Datenschutz() {
               <em>sind.)</em>
             </p>
           </div>
-          <Nav />
+          <MobileNav />
         </div>
       </main>
     </div>

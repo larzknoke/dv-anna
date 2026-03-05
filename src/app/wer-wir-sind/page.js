@@ -1,6 +1,6 @@
 import Image from "next/image";
 import CornerImages from "../components/CornerImages";
-import Nav from "../components/Nav";
+import MobileNav from "../components/MobileNav";
 
 export default function WerWirSind() {
   return (
@@ -37,7 +37,7 @@ export default function WerWirSind() {
               von diakonischen Werten.
             </p>
           </div>
-          <Nav />
+          <MobileNav />
         </div>
       </main>
     </div>
