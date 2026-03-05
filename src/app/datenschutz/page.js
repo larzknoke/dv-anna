@@ -13,7 +13,7 @@ export default function Datenschutz() {
           <Image
             src={"/img/dv-anna-logo.svg"}
             alt="DV Anna Logo"
-            width={200}
+            width={400}
             height={300}
             className="m-auto"
           />
