@@ -8,7 +8,7 @@ export default function Impressum() {
     <div className="relative min-h-screen bg-gray-100 overflow-hidden">
       <CornerImages />
 
-      <main className="relative z-10 flex  justify-center min-h-screen px-16 py-32">
+      <main className="relative z-10 flex  justify-center min-h-screen px-10 md:px-16 py-16 md:py-32">
         <div className=" text-center">
           <Image
             src={"/img/dv-anna-logo.svg"}
