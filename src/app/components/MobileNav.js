@@ -20,7 +20,7 @@ export default function MobileNav() {
       {/* Burger Menu Button - Mobile */}
       <button
         onClick={() => setIsOpen(!isOpen)}
-        className="absolute top-24 right-15 z-20 md:hidden text-anna-500"
+        className="absolute z-20 md:hidden text-anna-500"
         aria-label="Toggle menu"
       >
         <svg

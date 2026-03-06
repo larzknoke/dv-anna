@@ -1,5 +1,7 @@
 import { Arsenal } from "next/font/google";
 import "./globals.css";
+import Header from "./components/Header";
+import Footer from "./components/Footer";
 
 const arsenal = Arsenal({
   // variable: "--font-arsenal",
@@ -15,7 +17,15 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={`${arsenal.className}  antialiased`}>{children}</body>
+      <body className={`${arsenal.className} antialiased`}>
+        <div className="flex flex-col min-h-screen bg-gray-100">
+          <Header />
+          <main className="flex-1 flex justify-center px-4 md:px-16">
+            {children}
+          </main>
+          <Footer />
+        </div>
+      </body>
     </html>
   );
 }
