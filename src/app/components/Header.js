@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Header() {
   return (
@@ -9,13 +10,14 @@ export default function Header() {
         className="w-[50%] max-w-200 object-contain"
       />
       <div className="flex w-full justify-center items-center absolute pt-18 md:pt-24">
-        <Image
-          src="/img/dv-anna-logo.svg"
-          alt="DV Anna Logo"
-          width={400}
-          height={300}
-          className="m-auto w-56 md:w-[30%] md:max-w-100 h-auto"
-        />
+        <Link href="/" className="m-auto w-56 md:w-[30%] md:max-w-100 h-auto">
+          <Image
+            src="/img/dv-anna-logo.svg"
+            alt="DV Anna Logo"
+            width={400}
+            height={300}
+          />
+        </Link>
       </div>
       <img
         src="/img/or_web.png"
