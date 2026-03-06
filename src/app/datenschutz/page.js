@@ -18,7 +18,7 @@ export default function Datenschutz() {
             className="m-auto"
           />
 
-          <div className="text-center mt-16 max-w-5xl m-auto gap-3 flex flex-col  max-h-96 overflow-y-auto">
+          <div className="text-center mt-16 max-w-5xl m-auto flex flex-col  max-h-96 overflow-y-auto text-balance gap-5">
             <p className="text-xl">
               <strong>Datenschutzerkl&auml;rung</strong>
             </p>
@@ -36,7 +36,7 @@ export default function Datenschutz() {
               </li>
             </ol>
             <p>
-              Anna Margareta Seniorenzentren gGmbH <br />
+              <strong>Anna Margareta Seniorenzentren gGmbH</strong> <br />
               Von-H&uuml;nefeld-Str. 33 &middot; 49356 Diepholz
             </p>
             <p>
@@ -49,21 +49,19 @@ export default function Datenschutz() {
               Gesch&auml;ftsf&uuml;hrerin: Vanessa van Rooij
             </p>
             <p>
-              Diakoniestation Diepholz gGmbH
+              <strong>Diakoniestation Diepholz gGmbH</strong>
               <br />
-              Von-H&uuml;nefeld-Str. 18
+              Von-H&uuml;nefeld-Str. 18 &middot; 49356 Diepholz
+            </p>{" "}
+            <p>
+              Telefon: 05441 / 7776 &middot; E-Mail:
+              info@diakoniestation-diepholz.de
               <br />
-              49356 Diepholz
-              <br />
-              Telefon: 05441 / 7776
-              <br />
-              E-Mail: info@diakoniestation-diepholz.de
-              <br />
-              Handelsregister: HRB 203474,
-              <br />
-              Registergericht: Amtsgericht Walsrode
+              Handelsregister: HRB 203474, &middot; Registergericht: Amtsgericht
+              Walsrode
             </p>
-            <ol>
+            <br />
+            {/* <ol>
               <li>
                 <strong>Datenschutzbeauftragte/r</strong>{" "}
                 <strong>(falls</strong> <strong>vorhanden)</strong>
@@ -81,7 +79,7 @@ export default function Datenschutz() {
                 (Falls kein/e Datenschutzbeauftragte/r vorhanden ist: Abschnitt
                 2 entfernen.)
               </em>
-            </p>
+            </p> */}
             <ol>
               <li>
                 <strong>Zwecke</strong> <strong>und</strong>{" "}
@@ -150,7 +148,7 @@ export default function Datenschutz() {
             </p>
             <p>
               <strong>Speicherdauer: </strong>Die Logfiles werden in der Regel
-              f&uuml;r <strong>[X Tage] </strong>gespeichert und
+              f&uuml;r <strong>30 Tage</strong> gespeichert und
               anschlie&szlig;end gel&ouml;scht, sofern keine
               sicherheitsrelevante Aufbewahrung (z. B. zur Aufkl&auml;rung von
               Angriffen) erforderlich ist.
@@ -163,18 +161,29 @@ export default function Datenschutz() {
             </ol>
             <p>Diese Website wird gehostet bei:</p>
             <p>
-              <strong>[Hosting-Anbieter]</strong> [Adresse des Anbieters]
-            </p>
-            <p>
-              Im Rahmen des Hostings werden die in Abschnitt 4 genannten Daten
-              verarbeitet. Sofern erforderlich, haben wir mit dem
-              Hosting-Anbieter einen Vertrag zur Auftragsverarbeitung (Art. 28
-              DSGVO) geschlossen.
-            </p>
-            <p>
-              <em> (Tipp:</em> <em>Wenn</em> <em>du</em> <em>den</em>{" "}
-              <em>Hoster</em> <em>kennst:</em> <em>hier</em> <em>wirklich</em>{" "}
-              <em>eintragen.)</em>
+              Hetzner Anbieter ist die Hetzner Online GmbH, Industriestr. 25,
+              91710 Gunzenhausen (nachfolgend Hetzner). Details entnehmen Sie
+              der Datenschutzerklärung von Hetzner:
+              https://www.hetzner.com/de/legal/privacy-policy/.
+              <br />
+              <br />
+              Die Verwendung von Hetzner erfolgt auf Grundlage von Art. 6 Abs. 1
+              lit. f DSGVO. Wir haben ein berechtigtes Interesse an einer
+              möglichst zuverlässigen Darstellung unserer Website. Sofern eine
+              entsprechende Einwilligung abgefragt wurde, erfolgt die
+              Verarbeitung ausschließlich auf Grundlage von Art. 6 Abs. 1 lit. a
+              DSGVO und § 25 Abs. 1 TDDDG, soweit die Einwilligung die
+              Speicherung von Cookies oder den Zugriff auf Informationen im
+              Endgerät des Nutzers (z. B. Device-Fingerprinting) im Sinne des
+              TDDDG umfasst. Die Einwilligung ist jederzeit widerrufbar.
+              <br />
+              <br />
+              Auftragsverarbeitung Wir haben einen Vertrag über
+              Auftragsverarbeitung (AVV) zur Nutzung des oben genannten Dienstes
+              geschlossen. Hierbei handelt es sich um einen datenschutzrechtlich
+              vorgeschriebenen Vertrag, der gewährleistet, dass dieser die
+              personenbezogenen Daten unserer Websitebesucher nur nach unseren
+              Weisungen und unter Einhaltung der DSGVO verarbeitet.
             </p>
             <ol>
               <li>
@@ -197,7 +206,7 @@ export default function Datenschutz() {
               Sicherheitsfunktionen oder die Auslieferung der Website).
             </p>
             <p>
-              <strong>Rechtsgrundlage:</strong>
+              <strong>Rechtsgrundlage</strong>
             </p>
             <ol>
               <ul>
@@ -220,9 +229,13 @@ export default function Datenschutz() {
               </li>
             </ol>
             <p>
-              Diese Website ist ein <strong>Link-Portal </strong>und
-              enth&auml;lt Verlinkungen zu externen Websites (z. B. zu den
-              Websites einzelner Einrichtungen).
+              https://seniorenhaus-anna-margareta.de
+              <br />
+              https://diakoniestation-diepholz.de
+              <br />
+              https://www.elisabeth-diepholz.de
+              <br />
+              https://www.seniorenzentrum-rehden.de
             </p>
             <p>
               Wenn Sie auf einen externen Link klicken, verlassen Sie diese
@@ -329,17 +342,6 @@ export default function Datenschutz() {
               <strong>f&uuml;r</strong> <strong>den</strong>{" "}
               <strong>Datenschutz Niedersachsen (LfD Niedersachsen)</strong>
             </p>
-            <p>
-              <em>
-                {" "}
-                (Wenn der Sitz nicht in Niedersachsen ist: Aufsichtsbeh&ouml;rde
-                anpassen oder neutral formulieren, z.
-              </em>{" "}
-              <em>
-                B. &bdquo;bei der zust&auml;ndigen
-                Datenschutzaufsichtsbeh&ouml;rde&ldquo;.)
-              </em>
-            </p>
             <ol>
               <li>
                 <strong>&Auml;nderungen</strong> <strong>dieser</strong>{" "}
@@ -349,47 +351,6 @@ export default function Datenschutz() {
             <p>
               Wir passen diese Datenschutzerkl&auml;rung an, wenn sich die
               Website oder die Datenverarbeitungen &auml;ndern.
-            </p>
-            <p>
-              <strong>
-                Optional-Module (nur verwenden, wenn wirklich im Einsatz)
-              </strong>
-            </p>
-            <ol>
-              <li>
-                <strong>Webanalyse</strong> <strong>(z.</strong>{" "}
-                <strong>B.</strong> <strong>Matomo/GA4)</strong>
-              </li>
-            </ol>
-            <p>
-              <em>
-                (Nur einf&uuml;gen, wenn tats&auml;chlich Analyse-Tools genutzt
-                werden &ndash; sonst weglassen.)
-              </em>
-            </p>
-            <ol>
-              <li>
-                <strong>Externe</strong> <strong>Schriftarten</strong>{" "}
-                <strong>(z.</strong> <strong>B.</strong> <strong>Google</strong>{" "}
-                <strong>Fonts</strong> <strong>&uuml;ber</strong>{" "}
-                <strong>CDN)</strong>
-              </li>
-            </ol>
-            <p>
-              <em>(Nur</em> <em>einf&uuml;gen,</em> <em>wenn</em> <em>Fonts</em>{" "}
-              <em>extern</em> <em>geladen</em> <em>werden</em> <em>&ndash;</em>{" "}
-              <em>Empfehlung:</em> <em>lokal</em> <em>hosten.)</em>
-            </p>
-            <ol>
-              <li>
-                <strong>Einbettungen</strong> <strong>(YouTube,</strong>{" "}
-                <strong>Maps,</strong> <strong>Social</strong>{" "}
-                <strong>Media)</strong>
-              </li>
-            </ol>
-            <p>
-              <em>(Nur einf&uuml;gen, wenn Inhalte eingebettet </em>
-              <em>sind.)</em>
             </p>
           </div>
           <MobileNav />
