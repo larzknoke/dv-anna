@@ -3,8 +3,8 @@ import Link from "next/link";
 
 export default function Impressum() {
   return (
-    <div className="text-center relative">
-      <div className="text-center mt-16 max-w-7xl m-auto gap-3 flex flex-col">
+    <div className="text-center relative mb-6">
+      <div className="text-center mt-16 max-w-7xl m-auto gap-3 flex flex-col py-10 md:py-0">
         <p className="text-xl">
           <strong>
             Impressum &ndash; Angaben gem&auml;&szlig; &sect; 5 DDG

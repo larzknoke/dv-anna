@@ -3,13 +3,13 @@ import Link from "next/link";
 
 export default function Datenschutz() {
   return (
-    <div className="text-center relative">
-      <div className="text-center mt-16 max-w-5xl m-auto flex flex-col text-balance gap-5">
+    <div className="text-center relative mb-6">
+      <div className="text-center mt-16 max-w-5xl m-auto flex flex-col text-balance gap-5 py-6 md:py-0">
         <p className="text-xl">
           <strong>Datenschutzerkl&auml;rung</strong>
         </p>
         <p>
-          <strong>Stand:</strong> [01.01.2026]
+          <strong>Stand:</strong> 01.01.2026
         </p>
         <p>
           Diese Datenschutzerkl&auml;rung informiert Sie &uuml;ber die
